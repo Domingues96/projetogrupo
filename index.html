@@ -1,44 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tamagoshi</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <header class="center bg-dark light">
-        <h2>Tamagoshi</h2>
-    </header>
-    <section>
-        <div class="container clearfix">
-            <div class="col-6 center">
-                <img src="img/t01.gif" alt="" id="foto" class="full">
+<div class="wrap">
+    <section class="intro">
+        <h1 class="title">Hello! Your pet has been waiting for you for so long!</h1>
+        <p class="description">First of all, your pet wants to play with you. If you don't play with it, it will feel lonely and start getting sad. Also, you should feed your pet, when it becomes hungry, and take it to doctor, when it becomes ill. Like everyone in this world,
+            pet is growing and getting old. Nothing can do with it. Just take care of it!</p>
+    </section>
+    <section class="home">
+        <div class="cat child">
+            <div class="head">
+                <p class="ears"><span class="left-ear"></span><span class="right-ear"></span></p>
+                <p class="eyes"><span class="left-eye"></span><span class="right-eye"></span></p>
+                <p class="nose"></p>
+                <p class="mouth">D</p>
             </div>
-            <div class="col-6">
-                <div class="">
-                    <p id="tempo"></p>
-                    <p id="saude"></p>
-                    <p id="fome"></p>
-                    <p id="humor"> </p>
-                </div>
-                <div class="">
-                    <button onclick="comer(5)"> Comer </button>
-                    <button onclick="remedio(5)"> Remédio </button>
-                </div>
+            <div class="body">
+                <div class="left-arm"></div>
+                <div class="right-arm"></div>
+                <div class="left-leg"><span class="foot"></span></div>
+                <div class="right-leg"><span class="foot"></span></div>
+                <div class="tail">S</div>
             </div>
         </div>
     </section>
-    <footer class="center bg-dark light">
-        <h6>Feito por Thayná Domingues</h6>
-    </footer>
-    <script src="js/tamagoshi.js"></script>
-
-    <!-- codigo retirado do github: https://github.com/fmoreirati/tamagoshi.git -->
-
-</body>
-
-</html>
+    <section class="configurations">
+        <p>Configurations:</p>
+        <button class="button" id="play">Play with your pet</button>
+        <button class="button" id="feed">Feed your pet</button>
+        <button class="button" id="doctor">Take your pet to doctor</button>
+    </section>
+</div>
