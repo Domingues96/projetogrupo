@@ -1,31 +1,31 @@
 //codigo retirado do github: https://github.com/fmoreirati/tamagoshi.git
 
 var nome = "";
-var saude = 50;
+var saude = 10;
 var fome = 50;
 var tempo = 0;
 
-setInterval(display, 60000);//1000 = 1seg
+setInterval(display, 60000); //1000 = 1seg
 display()
 
 function display() {
     tempo++ //tempo = tempo + 1
-    document.getElementById("tempo").innerHTML="Tempo: " + tempo
-    document.getElementById("saude").innerHTML="Saude: " + saude
-    document.getElementById("fome").innerHTML="Fome: " + fome
+    document.getElementById("tempo").innerHTML = "Tempo: " + tempo
+    document.getElementById("saude").innerHTML = "Saude: " + saude
+    document.getElementById("fome").innerHTML = "Fome: " + fome
     imagem();
 }
 
 function humor() {
-   
+
 }
 
 function comer(valor) {
-   
+
 }
 
 function remedio(valor) {
-    
+
 }
 
 function imagem() {
