@@ -1,7 +1,7 @@
 //codigo retirado do github: https://github.com/fmoreirati/tamagoshi.git
 
 var nome = "";
-var saude = 10;
+var saude = 100;
 var fome = 50;
 var tempo = 0;
 
